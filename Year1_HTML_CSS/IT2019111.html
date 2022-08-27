@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VISA form
+</title>
+<style>
+
+body{
+margin:80px;
+}
+
+/*print button*/
+.button{
+  background-color: silver;
+  color:black;
+  padding: 15px 34px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  float:right;
+  border: 2px solid black;
+}
+/*print button*/
+
+/*office use*/
+	.center{
+		
+        padding-top:40px;	
+		margin-left:40%;
+		margin-top:90px;
+		border:1px solid black;
+		text-align:center;
+		position:relative;
+		width:300px;
+		height:60px;
+	}
+/*office use*/
+
+
+/*photo*/
+    .photo-div{
+	    text-align:center;
+		margin-left:80%;
+	    position:relative;
+		margin-top:-180px;
+		width:200px;
+		overflow:hidden;
+		height:200px;
+		border:1px solid black;
+		padding-top:50px;
+	}
+/*photo*/
+	
+
+/*input text*/	
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin-left:30px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #FAEBD7;
+  display:inline-block;
+}
+/*input text*/
+
+
+/*checkbox*/
+input[type=checkbox]{
+  width:25px;
+  height:25px;
+  display:inline-block; 
+}
+/*checkbox*/
+
+
+/*drop down menu*/
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin-left:30px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #FAEBD7;
+  display:inline-block;
+  overflow:scroll;
+}
+/*drop down menu*/
+
+
+
+/*radio*/
+input[type=radio]{
+  width:25px;
+  height:25px;
+  display:inline-block; 
+}
+/*radio*/
+
+
+
+/*reset*/
+input[type=reset]{
+  background-color: #FAEBD7;
+  color:black;
+  padding: 15px 34px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid black;
+}
+/*reset*/
+
+
+
+/*submit*/
+input[type=submit]{
+  background-color: #FAEBD7;
+  color:black;
+  padding: 15px 34px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid black;
+}
+/*submit*/
+
+
+	
+</style>
+
+</head>
+<body>
+
+
+<button class= "button">PRINT</button>
+
+
+<br/><br/>
+
+<h2 style="text-align:center;margin-top:90px;"><b>VISA APPLICATION FORM TO ENTER JAPAN</b></h2>
+
+
+<div class="center">*Office use only</div>
+
+<div class="photo-div"><p style =center>(Paste photo here)</p>
+<p>45mm*45mm</p><p>or 2in*2in</p> </div>
+
+<br/><br/>
+
+<form>
+
+<label for="surname">Surname(as show in passport) :</label>
+<input style="margin-left:125px" type="text" name="surname" placeholder="Your surname..." >
+<br/><br/>
+
+<label for="middle">Give and middle names(as show in passport) :</label>
+<input type="text"  name="middle" placeholder="Middle names...">
+<br/><br/>
+
+<label for="other">Other names(including any other names you are or have been known by):</label>
+<input style="margin-left:330px" type="text" name="other">
+<br/><br/>
+
+
+<label for="birth">Date of birth :</label> 
+<input style="width:20%" type="text"  name="birth" placeholder="(Day) / (Month) / (Year)"> 
+
+<label style="margin-left:30px" for="place"> Place of birth :</label>
+<input style="width:53%" type="text"  name="place" placeholder="(City) (State or Province) (Contry)">
+<br/><br/>
+
+<p>sex :
+<label style="margin-left:90px" for="male">Male </label>
+<input type="checkbox" name="male" value="male"/>
+
+
+<label style="margin-left:30px" for="female">Female </label>
+<input type="checkbox" name="female" value="female"/>
+ 
+<label style="margin-left:180px" for="single">Marital stastus: Single</label>
+<input type="checkbox" name="single" value="single"/>
+
+<label style="margin-left:30px" for="married">Married</label>
+<input type="checkbox" name="married" value="married"/>
+
+<label style="margin-left:30px" for="widowed">Widowed</label>
+<input type="checkbox" name="widowed" value="widowed"/>
+
+
+<label style="margin-left:30px" for="divorced">Divorced</label>
+<input type="checkbox" name="divorced" value="divorced"/></p>
+<br/><br/>
+
+<p>Nationality or citizenship :
+<select style="margin-left:157px;"> name="AFGHANISTAN">
+<option value="AFGHANISTAN">AFGHANISTAN</option>
+<option value="ALBANIA">ALBANIA</option>
+<option value="ALGERIA">ALGERIA</option>
+<option value="ANDORRA">ANDORRA</option>
+<option value="ANGOLA">ANGOLA</option>
+<option value="BANGLADESH">BANGLADESH</option>
+<option value="BELGIUM">BELGIUM</option>
+<option value="BHUTAN">BHUTAN</option>
+<option value="CHILE">CHILE</option>
+<option value="SRI LANKA">SRI LANKA</option>
+</select>
+</p>
+<br/><br/>
+
+<p>Former and other nationalities or citizenships :
+<select name="">
+<option></option>
+<option value="AFGHANISTAN">AFGHANISTAN</option>
+<option value="ALBANIA">ALBANIA</option>
+<option value="ALGERIA">ALGERIA</option>
+<option value="ANDORRA">ANDORRA</option>
+<option value="ANGOLA">ANGOLA</option>
+<option value="BANGLADESH">BANGLADESH</option>
+<option value="BELGIUM">BELGIUM</option>
+<option value="BHUTAN">BHUTAN</option>
+<option value="CHILE">CHILE</option>
+<option value="SRI LANKA">SRI LANKA</option>
+</select>
+</p>
+<br/><br/>
+
+
+<label for="idno">ID No.issued to you by your government :</label>
+<input style="margin-left:60px" type="text" name="idno">
+<br/><br/>
+
+<p>Passport type : 
+<label style="margin-left:35px" for="diplomatic">Diplomatic</label>
+<input  type="radio" name="diplomatic" value="diplomatic"/>
+
+<label style="margin-left:30px" for="off">Official</label>
+<input type="radio" name="off" value="off"/>
+
+<label style="margin-left:30px" for="ord">Ordinary</label>
+<input type="radio" name="ord" value="ord"/>
+
+<label style="margin-left:30px" for="oth">Other</label>
+<input type="radio" name="oth" value="oth"/></p>
+<br/><br/>
+
+
+<label for="pass">Passport No.:</label>
+<input style="margin-left:250px" type="text" name="pass">
+<br/><br/>
+
+
+<label for="issue">Date of issue:</label> 
+<input style="width:20%;margin-left:110px" type="text"  name="issue" placeholder="(Day) / (Month) / (Year)"> 
+
+<label style="margin-left:30px" for="p-issue"> Place of issue :</label>
+<input style="width:30%" type="text"  name="p-issue">
+<br/><br/>
+
+
+<label for="auth">Issuing authority:</label>
+<input style="width:30%;margin-left:80px" type="text"  name="auth">
+
+<label style="margin-left:30px" for="exp">Date of expiry :</label> 
+<input style="width:20%;margin-left:60px" type="text"  name="exp" placeholder="(Day) / (Month) / (Year)"> 
+<br/><br/>
+
+<label for="purpose">Purpose of visit to Japan :</label>
+<input style="margin-left:170px" type="text" name="purpose">
+<br/><br/>
+
+<label for="int">Intended length of stay in Japan :</label>
+<input style="margin-left:125px" type="text" name="int">
+<br/><br/>
+
+<label for="arri">Date of arrival in Japan :</label>
+<input style="margin-left:180px" type="text" name="arri">
+<br/><br/>
+
+<label for="ent">Port of entry into Japan :</label>
+<input style="width:30%" type="text" name="ent">
+
+
+<label style="margin-left:20px" for="ship">Name of ship or airline :</label>
+<input style="width:30%" type="text" name="ship">
+<br/><br/>
+
+<p>Names and addresses of hotels or persons with whome applicant intends to stay</p>
+<label style="margin-left:30px"  for="nam">Name :</label>
+<input style="margin-left:110px;width:40%" type="text" name="nam">
+
+<label style="margin-left:20px" for="tel">Tel :</label>
+<input style="width:20%" type="text" name="tel">
+<br/><br/>
+
+<label style="margin-left:30px"  for="add">address :</label>
+<input style="margin-left:100px" type="text" name="add">
+<br/><br/>
+
+
+<label for="stay">Dates and duration of previous stays in Japan :</label>
+<input style="margin-left:40px"  type="text"  name="stay">
+<br/><br/>
+
+<p>Your current residential address(if you have more than one address, please list them all)</p>
+<label style="margin-left:30px"  for="ad">Address :</label>
+<input style="margin-left:100px" type="text"  name="ad"> 
+<br/><br/>
+
+<label style="margin-left:30px"  for="te">Tel :</label>
+<input style="width:20%; height:2px;margin-left:130px" type="text"  name="te"> 
+
+<label style="margin-left:30px"  for="mob">Moblile No. :</label>
+<input style="width:20%; height:2px" type="text"  name="ad">
+<br/><br/>
+
+<label for="pos">Current profession or occupation and position :</label>
+<input type="text"  name="pos">
+<br/><br/>
+ 
+ <p>Name and address of employer</p>
+ <label style="margin-left:30px"  for="na">Name :</label>
+<input style="margin-left:115px;width:40% " type="text"  name="na">
+
+ <label style="margin-left:30px"  for="tel">Tel :</label>
+<input style="width:20%" type="text"  name="tel">
+<br/><br/>
+
+<label style="margin-left:30px"  for="ad">Address :</label>
+<input style="margin-left:100px" type="text"  name="ad"> 
+<br/><br/>
+
+<hr><br/>
+
+<label for="partner">*Partner's profession/occupation(or that of parents,if applicant is a minor) :</label>
+<input style="width:55%" type="text"  name="partner">
+<br/><br/>
+
+<p>Guarantor or reference in Japan<em>(Please provide details of the guarantor or the person to be visited in Japan)</em></p>
+<br/><br/>
+
+ <label style="margin-left:30px"  for="na">Name :</label>
+<input style="margin-left:115px;width:40%" type="text"  name="na">
+
+ <label style="margin-left:30px"  for="tel">Tel :</label>
+<input style="width:20%" type="text"  name="tel">
+<br/><br/>
+
+<label style="margin-left:30px"  for="ad">Address :</label>
+<input style="margin-left:100px" type="text"  name="ad"> 
+<br/><br/>
+
+<label  style="margin-left:30px" for="birth">Date of birth :</label> 
+<input style="width:20%;margin-left:70px " type="text"  name="birth" placeholder="(Day) / (Month) / (Year)"> 
+<br/><br/>
+
+<p  style="margin-left:30px"> Sex :
+<label style="margin-left:140px" for="male">Male </label>
+<input type="checkbox" name="male" value="male"/>
+
+
+<label style="margin-left:30px" for="female">Female </label>
+<input type="checkbox" name="female" value="female"/></p>
+<br/><br/>
+
+<label  style="margin-left:30px" for="rela">Relationship to applicant :</label>
+<input style="margin-left:110px"  type="text"  name="rela">
+<br/><br/>
+
+<label  style="margin-left:30px" for="prof">Profession or occupation and position :</label>
+<input type="text"  name="prof">
+<br/><br/>
+
+<label  style="margin-left:30px" for="nati">Nationality and immigration status :</label>
+<input style="margin-left:50px" type="text"  name="nati">
+<br/><br/>
+
+
+
+<p>Inviter in Japan<em>(Please write 'same as above' if the inviting person and the guarantor are the same)</em></p>
+<br/><br/>
+
+ <label style="margin-left:30px"  for="na">Name :</label>
+<input style="margin-left:115px;width:40%" type="text"  name="na">
+
+ <label style="margin-left:30px"  for="tel">Tel :</label>
+<input style="width:20%" type="text"  name="tel">
+<br/><br/>
+
+<label style="margin-left:30px"  for="ad">Address :</label>
+<input style="margin-left:100px" type="text"  name="ad"> 
+<br/><br/>
+
+<label  style="margin-left:30px" for="birth">Date of birth :</label> 
+<input style="width:20%;margin-left:70px " type="text"  name="birth" placeholder="(Day) / (Month) / (Year)"> 
+<br/><br/>
+
+<p  style="margin-left:30px"> Sex :
+<label style="margin-left:140px" for="male">Male </label>
+<input type="checkbox" name="male" value="male"/>
+
+
+<label style="margin-left:30px" for="female">Female </label>
+<input type="checkbox" name="female" value="female"/></p>
+<br/><br/>
+
+<label  style="margin-left:30px" for="rela">Relationship to applicant :</label>
+<input style="margin-left:110px"  type="text"  name="rela">
+<br/><br/>
+
+<label  style="margin-left:30px" for="prof">Profession or occupation and position :</label>
+<input type="text"  name="prof">
+<br/><br/>
+
+<label  style="margin-left:30px" for="nati">Nationality and immigration status :</label>
+<input style="margin-left:50px" type="text"  name="nati">
+<br/><br/>
+
+<label for="remark">*Remarks/Special circumstances, if any :</label>
+<input style="margin-left:50px" type="text"  name="remark">
+<br/><br/>
+
+<p>Have you ever :</p>
+<ul>
+<li>been convicted of a crime or offence in any country?
+<label style="margin-left:305px" for="Yes">Yes</label>
+<input type="checkbox" name="Yes" value="Yes"/>
+<label style="margin-left:90px" for="no">No</label>
+<input type="checkbox" name="no" value="no"/>
+</li>
+<br/><br/>
+
+
+<li>been sentenced to imprisonment for 1 year or more in any country?**
+<label style="margin-left:200px" for="Yes">Yes</label>
+<input  type="checkbox" name="Yes" value="Yes"/>
+<label style="margin-left:90px" for="no">No</label>
+<input type="checkbox" name="no" value="no"/>
+</li>
+<br/><br/>
+
+
+<li>committed trafficking in persons or incited or aided another to commit such an offence?
+<label style="margin-left:90px" for="Yes">Yes</label>
+<input type="checkbox" name="Yes" value="Yes"/>
+<label style="margin-left:90px" for="no">No</label>
+<input type="checkbox" name="no" value="no"/>
+</li>
+
+</ul>
+<p><em>** Please tick "Yes" if you have received any sentence, even if the sentence was suspended.</em></p>
+
+<p>If you answered “Yes” to any of the above questions, please provide relevant details.
+</p>
+
+<textarea row="5" cols="30"></textarea>
+<br/>
+<p>“I hereby declare that the statement given above is true and correct. I understand that immigration status and period of stay to be granted are decided by the Japanese immigration authorities upon my arrival. I understand that possession of a visa does not entitle the bearer to enter Japan upon arrival at port of entry if he or she is found inadmissible.” “I hereby consent to the provision of my personal information (by an accredited travel agent, within its capacity of representing my visa application) to the Japanese embassy/consulate-general and (entrust the agent with) the payment of my visa fee to the Japanese embassy/consulate-general, when such payment is necessary.”</p>
+<br/><br/>
+
+<label for="d-app">Date of application :</label> 
+<input style="width:20%" type="text"  name="d-app" placeholder="(Day) / (Month) / (Year)"> 
+
+<p style="margin-left:700px; margin-top:-20px;">Signature of applicant :_______________________________________</p>
+<br/><br/>
+
+
+
+<p>Any personal information gathered in this application as well as additional information submitted for the visa application (hereinafter referred to as "Retained Personal Information”) will be handled appropriately in accordance with the Act on the Protection of Personal Information Held by Administrative Organs (Act No. 58 of 2003, hereinafter, “the Act”). Retained Personal Information will only be used for the purpose of processing the visa application and to the extent necessary for the purposes stated in Article 8 of the Act.</p>
+<br/><br/>
+
+<input type="Reset" value="Clear the form"/>
+
+<input type="submit" value="submit"/>
+</form>
+
+
+</body>
+
+</html>

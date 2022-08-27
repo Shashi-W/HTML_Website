@@ -1,0 +1,100 @@
+/*All page margin*/
+body{
+	margin:70px;
+}
+
+/*Tourism in Sri Lanka*/
+.k{
+	
+	text-align:center; 
+	margin-top:-140px;
+	text-shadow:3px 2px black; 
+	font-size:70px;
+}
+
+
+/*Tourism navigation list*/
+nav{
+	
+	background-color:pink;
+	list-style-type:none;
+	text-align:center;
+	margin-top:10px;;
+	float:left;
+	padding:0;
+	width:100%;
+}
+
+nav li{
+	display:inline-block;
+	font-size:20px;
+	padding:20px;
+}
+
+
+/*Tourism content list*/
+ol li {
+  background: #ffe5e5;
+  margin: 5px;
+}
+
+
+/*Tourism Wildlife photo*/
+p img{
+	border:1px solid black;
+	padding:20px;
+}
+
+
+/*Provinces list*/
+ul  {
+  list-style-type: square;
+}
+
+
+/*Environment of Sri Lanka(External links)*/
+
+span{
+	
+	display:inline-block;
+}
+
+/*button for all pages*/
+button{
+	background-color:#ADD8E6;
+    border: 1px solid none;
+	padding:25px;
+	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	display:inline-block;
+	width:200px;
+	
+}
+
+/*Provinces of Sri Lanka-button*/
+.button1{
+		display:block;
+		width:200px;
+}
+
+
+a{
+	text-decoration: none;
+	
+}
+
+
+/*link img (first page)*/
+.b{
+	text-align:center; 
+	color:black;
+	margin-top:-40px;
+}
+
+
+
+
+
+
+
+
